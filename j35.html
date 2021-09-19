@@ -1,0 +1,25 @@
+<!-- filter() method in array -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //filter()--it creates an array filled with all array elements that pass a test
+        var ages=[10,20,30,40];
+        document.write(ages+"<br>");
+
+        var b=ages.filter(checkadult);
+        document.write(b+"<br>");
+
+        function checkadult(age)
+        {
+            return age>=18;
+        }
+
+    </script>
+</body>
+</html>

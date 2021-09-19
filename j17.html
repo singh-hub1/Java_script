@@ -1,0 +1,54 @@
+<!-- js basic events -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onkeypress="sun()">
+
+    <button onclick="hello()">click me</button>
+    <p ondblclick="hello()">double click on me</p>
+    <p oncontextmenu="hello()">right click</p>
+    <!-- <p onmouseenter="sun()">mouse hover event in js</p>
+    <p onmouseout="suns()">mouse out event in js</p> -->
+    <p onmouseup="suns()">mouse up event in js</p>
+    <p onmousedown="suns()">mouse down event in js</p>
+
+
+
+    <script>
+        //--------onclick------------//
+        function hello() {
+            document.write("hello vishal singh!");
+        }
+
+        function sun() {
+            alert("hello vishal singh!");
+        }
+
+        function suns() {
+            document.write("hello mouse out");
+        }
+        /*
+        click=(onclick)
+        double click=(ondblclick)
+        right click=(oncontextmenu)
+        mouse hover=(onmouseenter)
+        mouse out=(onmouseout)
+        mouse down=(onmousedown)
+        mouse up=(onmouseup)
+        key press(onkeypress) //work only in body tag and form tag//
+        key up=(onkeyup)
+        load=(onload)
+        unload=(onunload)
+        resize=(onresize)
+        scroll=(onscroll)
+        */
+    </script>
+</body>
+
+</html>

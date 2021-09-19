@@ -1,0 +1,32 @@
+<!-- global and local variables -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a="vishal singh"; //this is global variable
+        function hello()
+        {
+            document.write(a+"<br>");
+        }
+        hello();
+        document.write(a);
+
+//-----------------local variable----------------------------//
+
+        function world()
+        {
+            var b="jasu singh";
+            document.write("<br>");
+            document.write(b);
+        }
+        world();
+        document.write(b);//this is not working bcoz of variable b is local to that function//
+
+    </script>
+</body>
+</html>

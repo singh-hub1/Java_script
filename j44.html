@@ -1,0 +1,80 @@
+<!-- number method in js -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // var a = "100";//here 100 is a string
+        // var c = Number(a);//here a is convert into number
+        // document.write(c + 10 + "<br>");
+
+
+
+        // var a = "100.55";
+        // var c = parseInt(a); //it just convert into integer format
+        // document.write(c  + "<br>");
+
+
+
+        //     var a = "50 years";
+        //     var c = parseInt(a); //it just convert into integer format
+        //     document.write(c  + "<br>");
+
+
+
+
+        // var a = "years 10";
+        // var c = parseInt(a);
+        // document.write(c + "<br>");//here it returns NAN(not a number) bcoz it checks only first letter
+
+
+
+        // var a = "10.58";
+        // var c = parseFloat(a);
+        // document.write(c + "<br>");//here it returns 10.58 bcoz its a parseFloat
+
+
+        // var a = "hello";
+        // var c = isFinite(a);
+        // document.write(c + "<br>"); //it returns false
+
+
+        // var a = Infinity;
+        // var c = Number.isFinite(a);
+        // document.write(c + "<br>");//it returns false
+
+
+
+        // var a = 100;
+        // var c = Number.isInteger(a);
+        // document.write(c + "<br>");//it returns true
+
+
+
+
+        // var a = 100.5478;
+        // var c = a.toFixed(2);
+        // document.write(c + "<br>");//it returns 100.55 bcoz it fixed after 2 digit of a
+
+
+
+
+
+        var a = 5.5478;
+        var c = a.toPrecision(3);
+        document.write(c + "<br>");//it returns 5.55 bcoz it takes after 2 digit of a number and combine total=3
+
+
+
+
+
+    </script>
+</body>
+
+</html>

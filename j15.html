@@ -1,0 +1,89 @@
+<!-- functions in js -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function hello() {
+            document.write("hello everybody!!");
+        }
+        hello();//function call
+        document.write("<br>");
+        hello();//function call
+
+        function yahoo() {
+            document.write("<br>");
+            document.write("vishal singh");
+        }
+
+        yahoo();
+
+        //----------------functions with parameters-------------------//
+
+        function name(fname, lname) {
+            document.write("<br>");
+            document.write("hello " + fname + " " + lname);
+        }
+        name("vishal", "singh");//function call
+
+        //-----------function argument with default------------//
+
+        function names(fname = "arya", lname = "singh") {
+            document.write("<br>");
+            document.write("hello " + fname + " " + lname);
+        }
+        names();//function call
+
+        //-----------------change with default parameter-------//
+
+        function sun(fname = "arya", lname = "singh") {
+            document.write("<br>");
+            document.write("hello " + fname + " " + lname);
+        }
+        sun("swati", "singh");//function call
+
+        //---------------function with return value-----------------//
+
+        function fullname(fname,lname)
+        {
+             var a=fname+ " "+lname;
+             return a;
+        }
+
+        var n=fullname("jasu","singh");
+        document.write("<br>");
+        document.write(n);
+
+
+        function sum(maths,eng,science)
+        {
+             var a=maths+eng+science;
+             return a;
+        }
+
+        var n=sum(55,65,75);
+        document.write("<br>");
+        document.write(n);
+
+
+        
+        function percentage(total)
+        {
+             var per=total/300*100;
+             return per;
+        }
+
+        var p=percentage(n);
+        document.write("<br>");
+        document.write(p);
+
+    </script>
+</body>
+
+</html>

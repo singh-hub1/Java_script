@@ -1,0 +1,63 @@
+<!-- date methods in js -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //first of all we make a object of date method before we use date function
+
+        var now = new Date();//new Date("january 1 2020"); we can also specify the specific
+        //document.write(now); //it displays todays date
+        //document.write(now.toDateString());//it returns only this Sat Jan 30 2021
+
+
+        // document.write(now.getDate()); //it returns only todays date
+
+        // document.write(now.getFullYear()); //it returns only year
+
+        // document.write(now.getMonth()); //it returns only month which is 0 bcoz array index start from o and jan is also an array type
+
+        // document.write(now.getDay());//it returns the day of week like saturday which is 6
+
+
+
+
+        // document.write(now.getHours());//it returns the hours
+
+        // document.write(now.getMinutes());//it returns the minutes
+
+
+        // document.write(now.getSeconds());//it returns the second
+
+        // document.write(now.getMilliseconds());//it returns the Millisecond
+
+
+
+        // now.setDate(1);//it returns the future date Fri Jan 01 2021 21:14:08 GMT+0530 (India Standard Time)
+        // document.write(now);
+
+        // now.setFullYear(2020);//it returns the year
+        // document.write(now);
+
+
+        // now.setMonth(4);//it returns the month
+        // document.write(now);
+
+
+        // now.setHours(14);//it returns the hours
+        // document.write(now);
+
+
+
+        document.write(now.getDate()+"/"+now.getMonth()+"/"+now.getFullYear());
+    </script>
+</body>
+
+</html>

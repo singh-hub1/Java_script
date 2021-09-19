@@ -1,0 +1,40 @@
+<!-- array methods some() and every() -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var ages=[10,20,30,40];
+        // document.write(ages +"<br>");
+
+        // var b=ages.some(checkadult); //it check all array elements one by one 
+        // document.write(b+"<br>");
+
+        // function checkadult(age)
+        // {
+        //     return age>=18;
+        // }
+
+        //note:It returns only true or false 
+
+
+        var ages=[10,20,30,40];
+        document.write(ages +"<br>");
+
+        var b=ages.every(checkadult); //it check all array elements one by one 
+        document.write(b+"<br>");
+
+        function checkadult(age)
+        {
+            return age>=18;
+        }
+
+
+        //note:It returns only true or false and all conditions must be satisfy
+    </script>
+</body>
+</html>

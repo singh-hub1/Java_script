@@ -1,0 +1,36 @@
+<!-- creating an object -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var a=new Object();
+        // //here we just declare a as object and later we can  initialize values
+
+        // a.first="vishal";
+        // a.last="singh";
+        // a.age=20;
+        // //document.write(a.first);
+        // document.write(a["first"]); //another method to print 
+
+
+
+        // array of object
+
+        var a=[
+            {name:"vishal",age:20},
+            {name:"singh",age:15},
+            {name:"swati",age:32},
+        ]
+        //console.log(a);
+        for(var i=0;i<a.length;i++)
+        {
+            document.write(a[i].name+" "+a[i].age+"<br>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!-- what is object? -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+        // example of object and array inside the object
+        // var a = {
+        //     fname: "vishal",
+        //     lname: "singh",
+        //     age: 20,
+        //     email: "vishalkvd2005@gmail.com",
+        //     movies: ["idiots", "aaa", "bbb"]
+        // }
+
+        // document.write(a.age);
+       //console.log(a);
+       //console.log(a.age);
+
+
+       //example of function inside the object
+    //    var a = {
+    //         fname: "vishal",
+    //         lname: "singh",
+    //         age: 20,
+    //         email: "vishalkvd2005@gmail.com",
+    //         movies: ["idiots", "aaa", "bbb"],
+    //         salary:function()
+    //         {
+    //             return 2300;
+    //         },
+    //         name:function()
+    //         {
+    //             return a.fname +" "+a.lname; //return this.fname +" "+this.lname
+    //         } 
+    //     };
+    //     document.write(a.name());
+
+    //object inside the object
+
+    var a = {
+            fname: "vishal",
+             lname: "singh",
+             age: 20,
+             email: "vishalkvd2005@gmail.com",
+             movies: ["idiots", "aaa", "bbb"],
+             living:{
+                 city:"pune",
+                 country:"india"
+             },
+         };
+         document.write(a.living.city);
+
+
+    </script>
+</body>
+
+</html>
